@@ -39,8 +39,9 @@ body {
     height: 100%;
     line-height: 1;
     font-size: 17px;
-    color: #000;
-    font-family: 'Gilroy-Light';
+    color: #141C3A;
+    font-family: 'Gilroy';
+    font-weight: 300;
     letter-spacing: 0%;
 }
 
@@ -51,7 +52,7 @@ body {
 }
 
 ._container {
-    max-width: 1344px;
+    max-width: 1146px;
     margin: 0px auto;
 }
 
@@ -66,18 +67,44 @@ body {
 
 .header__container {
     display: flex;
-    min-height: 115;
+    min-height: 115px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.header__logo {}
+.header__logo {
+    font-family: 'Gilroy';
+    font-weight: 800;
+
+    font-size: 26px;
+    line-height: 32px;
+    color: inherit;
+}
 
 .header__menu {}
 
 .menu {}
 
-.menu__list {}
+.menu__list {
+    width: 485px;
+    justify-content: space-evenly;
+    display: flex;
+}
 
-.menu__item {}
+
+.menu__item {
+    line-height: 30px;
+    color: inherit;
+    flex-grow: 1;
+}
+
+._accent {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+
+    align-items: center;
+}
 
 .menu__link {}
