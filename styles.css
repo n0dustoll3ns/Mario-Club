@@ -1,0 +1,29 @@
+header {
+  background-color: #f63232;
+  
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner .welcome {
+  background-color: #feb614;
+  color: white;
+  padding: 30px;
+  position: absolute;
+  left: 3%;
+  top: 30%;
+}
+
+.banner H2 {
+  font-size: 45px;
+}
+
+.banner H2 span {
+  font-size: 1.2em;
+}
