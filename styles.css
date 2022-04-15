@@ -168,22 +168,9 @@ form input:valid {
   border: 4px solid #71d300;
 }
 
-article p::first-line {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-section.join p::first-letter {
-  font-size: 1.2em;
-}
-
 p::selection {
   background-color: #F63232;
   color: white
-}
-
-p::after {
-  content: '...';
 }
 
 @media screen and (max-width: 1400px) {
@@ -205,11 +192,40 @@ p::after {
 @media screen and (max-width: 700px) {
   .banner .welcome {
     position: relative;
-    padding: 0;
+    text-align: center;
+    padding: 10px;
     left: 0;
     border-radius: 0px;
   }
-  .banner .welcome br{
+
+  .banner .welcome br {
     display: none;
+  }
+
+  .banner .welcome span {
+    font-size: 1em;
+  }
+
+  .images li {
+    display: block;
+    width: 100%;
+    margin: 20px 5%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  nav li {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 12px;
+  }
+
+  nav {
+    top: 0
+  }
+
+  header {
+    position: relative;
   }
 }
